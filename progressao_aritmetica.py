@@ -1,1 +1,1 @@
-soma = n (a+b) / 2
+# soma = n (a+b) / 2

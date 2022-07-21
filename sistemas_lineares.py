@@ -28,17 +28,3 @@ m3x3 = [[2,4,6],
         [1,2,3],
         [1,2,3]]
 
-def det2x2(m):
-    n = len(m)
-    dp = ds = 1
-
-    j = -1
-    for i in range(n):
-        dp *= m[i][i]
-        ds *= m[i][j]
-        j -= 1
-
-    return dp-ds
-
-def det3x3(m):
-    pass
